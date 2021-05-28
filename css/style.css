@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  }
+
+header {
+
+  }
+
+.images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10vh;
+    }
+
+img {
+  position: absolute;
+  width: 25vh;
+  align-self: flex-start;
+  }
+
+.images p {
+  color: white;
+  font-size: 4vh;
+  padding-top: 60vh;
+
+  }
+
+/* drag */
+.draggable img {
+  cursor: pointer;
+}
