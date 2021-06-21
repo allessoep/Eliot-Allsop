@@ -1,85 +1,74 @@
-//https://javascript.info/mouse-drag-and-drop
-let currentDroppable = null;
-const target = document.querySelector('.droppable');
+var container = document.querySelector("#container");
+var activeItem = null;
 
-document.addEventListener('mousedown', (e) => {
-let draggableElem = e.target.closest('.draggable');
+var active = false;
 
-if (!draggableElem) return;
+container.addEventListener("touchstart", dragStart, false);
+container.addEventListener("touchend", dragEnd, false);
+container.addEventListener("touchmove", drag, false);
 
-e.preventDefault();
+container.addEventListener("mousedown", dragStart, false);
+container.addEventListener("mouseup", dragEnd, false);
+container.addEventListener("mousemove", drag, false);
 
-draggableElem.ondragstart = function (e) {
-return false;
-};
+function dragStart(e) {
 
-let shiftX = e.clientX - draggableElem.getBoundingClientRect().left;
-let shiftY = e.clientY - draggableElem.getBoundingClientRect().top;
-let rightEdge =
-document.documentElement.clientWidth - draggableElem.offsetWidth;
-let bottomEdge =
-document.documentElement.clientHeight - draggableElem.offsetHeight;
+  if (e.target !== e.currentTarget) {
+    active = true;
 
-function moveAt(pageX, pageY) {
-let newLeft = pageX - shiftX;
-let newTop = pageY - shiftY;
+    // this is the item we are interacting with
+    activeItem = e.target;
 
-if (newLeft < 0) {
-newLeft = 0;
-}
-if (newLeft > rightEdge) {
-newLeft = rightEdge;
-}
-if (newTop < 0) {
-newTop = 0;
-}
-if (newTop > bottomEdge) {
-newTop = bottomEdge;
-}
-draggableElem.style.left = newLeft + 'px';
-draggableElem.style.top = newTop + 'px';
-}
+    if (activeItem !== null) {
+      if (!activeItem.xOffset) {
+        activeItem.xOffset = 0;
+      }
 
-moveAt(e.pageX, e.pageY);
+      if (!activeItem.yOffset) {
+        activeItem.yOffset = 0;
+      }
 
-function onMouseMove(e) {
-moveAt(e.pageX, e.pageY);
-
-draggableElem.hidden = true;
-let elemBelow = document.elementFromPoint(e.clientX, e.clientY);
-
-draggableElem.hidden = false;
-
-if (!elemBelow) return;
-
-let droppableBelow = elemBelow.closest('.droppable');
-
-if (currentDroppable != droppableBelow) {
-if (currentDroppable) {
-leaveTarget(currentDroppable);
+      if (e.type === "touchstart") {
+        activeItem.initialX = e.touches[0].clientX - activeItem.xOffset;
+        activeItem.initialY = e.touches[0].clientY - activeItem.yOffset;
+      } else {
+        console.log("doing something!");
+        activeItem.initialX = e.clientX - activeItem.xOffset;
+        activeItem.initialY = e.clientY - activeItem.yOffset;
+      }
+    }
+  }
 }
 
-currentDroppable = droppableBelow;
+function dragEnd(e) {
+  if (activeItem !== null) {
+    activeItem.initialX = activeItem.currentX;
+    activeItem.initialY = activeItem.currentY;
+  }
 
-if (currentDroppable) {
-enterTarget(currentDroppable);
-}
-}
-}
-
-function onMouseUp(e) {
-document.removeEventListener('mousemove', onMouseMove);
-draggableElem.onmouseup = null;
+  active = false;
+  activeItem = null;
 }
 
-document.addEventListener('mousemove', onMouseMove);
-document.addEventListener('mouseup', onMouseUp);
+function drag(e) {
+  if (active) {
+    if (e.type === "touchmove") {
+      e.preventDefault();
 
-function enterTarget(elem) {
-elem.style.backgroundColor = 'pink';
+      activeItem.currentX = e.touches[0].clientX - activeItem.initialX;
+      activeItem.currentY = e.touches[0].clientY - activeItem.initialY;
+    } else {
+      activeItem.currentX = e.clientX - activeItem.initialX;
+      activeItem.currentY = e.clientY - activeItem.initialY;
+    }
+
+    activeItem.xOffset = activeItem.currentX;
+    activeItem.yOffset = activeItem.currentY;
+
+    setTranslate(activeItem.currentX, activeItem.currentY, activeItem);
+  }
 }
 
-function leaveTarget(elem) {
-elem.style.backgroundColor = '';
+function setTranslate(xPos, yPos, el) {
+  el.style.transform = "translate3d(" + xPos + "px, " + yPos + "px, 0)";
 }
-});
