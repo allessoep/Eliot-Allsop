@@ -19,7 +19,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 10vh;
+  margin-top: 15vh;
     }
 
 img {
@@ -30,9 +30,9 @@ img {
 
 h1 {
   position: absolute;
-  color: gray;
+  color: white;
   font-size: 4vh;
-  margin-top: 80vh;
+  margin-top: 123vh;
   text-align: center;
   width: 22vh;
 
