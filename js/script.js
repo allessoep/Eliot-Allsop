@@ -19,3 +19,10 @@ window.addEventListener("DOMMouseScroll", scrollHorizontally, false);
 window.attachEvent("onmousewheel", scrollHorizontally);
 }
 })();
+
+
+function toggleText() {
+  document.getElementById("p1").innerHTML = "High Fidelity 17.5 x 16 cm";
+}
+
+toggleTekst();
