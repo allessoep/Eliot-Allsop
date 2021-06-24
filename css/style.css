@@ -10,6 +10,7 @@ body {
   margin-left: 50vw;
   margin-top: 15vh;
   overflow-y: hidden;
+  -webkit-backface-visibility: hidden;
 }
 
 #header {
@@ -32,10 +33,6 @@ body {
   background-color: white;
 }
 
-#p1 {
-  position: fixed;
-  }
-
 
 img {
   background-color: white;
@@ -52,15 +49,7 @@ a {
   text-decoration: none;
 }
 
-.example::-webkit-scrollbar {
-  display: none;
-}
 
-/* Hide scrollbar for IE, Edge and Firefox */
-.example {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
-}
 
 #HighFidelity {
   height: 17.5vh;
