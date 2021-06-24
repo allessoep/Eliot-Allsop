@@ -25,4 +25,6 @@ function toggleText() {
   document.getElementById("p1").innerHTML = "High Fidelity 17.5 x 16 cm";
 }
 
-toggleTekst();
+function toggleText2() {
+  document.getElementById("p1").innerHTML = "Pupula Duplex 8.5 x 6.5 cm";
+}
