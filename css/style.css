@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  color: black;
+  margin-left: 50vw;
+  margin-top: 25vh;
+  overflow-y: hidden;
+}
+
+#header {
+  background-color: white;
+}
+
+#images {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  background-color: white;
+  margin-bottom: 3vh;
+}
+
+#images2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: white;
+}
+
+
+img {
+  background-color: white;
+  margin-right: 1.5vh;
+}
+
+p {
+  margin-right: 5vh;
+    font-size: 2vh;
+}
+
+.example::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.example {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+#HighFidelity {
+  height: 17.5vh;
+}
+
+#PupulaDuplex {
+  height: 8.5vh;
+}
+
+#Pod {
+  height: 15.5vh;
+}
+
+#Hypnogogicstate {
+  height: 17.5vh;
+}
+
+#MythsoftheNearFuture {
+  height: 16vh;
+}
+
+#Thepoeticsofspace {
+  height: 10.5vh;
+}
+
+#Prometheos {
+  height: 16.5vh;
+}
+
+#SentientTumor {
+  height: 13.5vh;
+}
+
+#TheArchitectureoftheSky {
+  height: 22.5vh;
+}
+
+#Trypophobia {
+  height: 17vh;
+}
+
+#Uncannyvalley {
+  height: 17.5vh;
+}
+
+#Revolutionforthedead {
+  height: 13.5vh;
+}
+
+#Eclipse {
+  height: 8.5vh;
+}
+
+#Necropolis {
+  height: 14vh;
+}
+
+#adiscreetprosthesis {
+  height: 14vh;
+}
+
+#Cosmophobia {
+  height: 20vh;
+}
+
+#PodII {
+  height: 11.5vh;
+}
+
+#Digitalangel {
+  height: 7.5vh;
+}
+
+#ElevatedSection {
+  height: 12vh;
+}
+
+#FilthyMagic {
+  height: 16vh;
+}
+
+#DigitalPathologies {
+  height: 16vh;
+}
+
+#ExtremeMetaphors {
+  height: 11vh;
+}
+
+#Memoriesofthefuture {
+  height: 23vh;
+}
+
+#Isopoda {
+  height: 10vh;
+}
+
+#CompulsoryGames {
+  height: 15vh;
+}
+
+#Nightschool {
+  height: 16.5vh;
+}
+
+#BunkerHill {
+  height: 23vh;
+}
+
+#PodIII {
+  height: 9vh;
+}
+
+#MimeticDesires {
+  height: 16vh;
+}
+
+#Cyberiad {
+  height: 13vh;
+}
+
+#TheNewEros {
+  height: 6.5vh;
+}
+
+#TheAviatrix {
+  height: 14vh;
+}
+
+#Thelasttransitofvenus {
+  height: 12vh;
+}
+
+#TheThoughtCollective {
+  height: 20vh;
+}
+
+#SongsofInnocence {
+  height: 11vh;
+}
+
+#CodedSleep {
+  height: 11vh;
+  padding-right: 1.5vh;
+}
+
+#EventHorizon {
+  height: 13.5vh;
+}
