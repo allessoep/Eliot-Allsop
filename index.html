@@ -14,11 +14,15 @@
 <body>
   <div id="header">
     </div>
+  <audio id="HighFidelitysound" src="audio/HighFidelity.mp3" preload="auto"></audio>
+  <audio id="PupulaDuplexsound" src="audio/PupulaDuplex.mp3" preload="auto"></audio>
+  <audio id="TheArchitectureoftheSkysound" src="audio/TheArchitectureoftheSky.mp3" preload="auto"></audio>
+
 
   <div id="images">
     <p><a href="https://allessoep.github.io/">Eliot Allsop</a></p>
-    <img id="HighFidelity" src="images/High Fidelity.png" class="draggable" alt="High Fidelity">
-    <img id="PupulaDuplex" src="images/Pupula Duplex.png" class="draggable" alt="Pupula Duplex">
+    <img id="HighFidelity" src="images/High Fidelity.png" class="draggable" ondblclick="document.getElementById('HighFidelitysound').play();" alt="High Fidelity">
+    <img id="PupulaDuplex" src="images/Pupula Duplex.png" class="draggable" ondblclick="document.getElementById('PupulaDuplexsound').play();" alt="Pupula Duplex">
     <img id="Pod" src="images/Pod.png" class="draggable" alt="Pod">
     <img id="Hypnogogicstate" src="images/Hypnogogic state.png" class="draggable" alt="Hypnogogic state">
     <img id="MythsoftheNearFuture" src="images/Myths of the Near Future.png" class="draggable" alt="Myths of the Near Future">
@@ -44,7 +48,7 @@
       eliotwilliamallsop@gmail.com</p>
     <img id="Prometheos" src="images/Prometheos.png" class="draggable" alt="Prometheos">
     <img id="SentientTumor" src="images/Sentient Tumor.png" class="draggable" alt="Sentient Tumor">
-    <img id="TheArchitectureoftheSky" src="images/The Architecture of the Sky.png" class="draggable" alt="The Architecture of the Sky">
+    <img id="TheArchitectureoftheSky" src="images/The Architecture of the Sky.png" class="draggable" ondblclick="document.getElementById('TheArchitectureoftheSkysound').play();" alt="The Architecture of the Sky">
     <img id="Trypophobia" src="images/Trypophobia.png" class="draggable" alt="Trypophobia">
     <img id="Uncannyvalley" src="images/Uncannyvalley.png" class="draggable" alt="Uncannyvalley">
     <img id="Revolutionforthedead" src="images/Revolutionforthedead.png" class="draggable" alt="Revolution for the dead">
