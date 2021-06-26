@@ -23,7 +23,7 @@ window.attachEvent("onmousewheel", scrollHorizontally);
 document.getElementById( "HighFidelity" ).onclick= function(){
 fireEvent();
 };
-document.getElementById( "HighFidelity" ).ontouchstart = function(){
+document.getElementById( "HighFidelity" ).ontouchmove = function(){
 fireEvent();
 };
 // This function will be called whenever mousedown event occurs
