@@ -29,4 +29,5 @@ fireEvent();
 // This function will be called whenever mousedown event occurs
 function fireEvent( ) {
 document.getElementById("result1").innerHTML = " Mouse button is pressed ";
+document.getElementById('HighFidelitysound').play();
 }
