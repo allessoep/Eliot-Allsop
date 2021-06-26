@@ -19,3 +19,14 @@ window.addEventListener("DOMMouseScroll", scrollHorizontally, false);
 window.attachEvent("onmousewheel", scrollHorizontally);
 }
 })();
+
+document.getElementById( "HighFidelity" ).onclick= function(){
+fireEvent();
+};
+document.getElementById( "HighFidelity" ).ontouchstart = function(){
+fireEvent();
+};
+// This function will be called whenever mousedown event occurs
+function fireEvent( ) {
+document.getElementById("result1").innerHTML = " Mouse button is pressed ";
+}
