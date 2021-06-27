@@ -20,6 +20,11 @@ window.attachEvent("onmousewheel", scrollHorizontally);
 }
 })();
 
+
+
+
+//flexbox 1 event listeners
+
 //high fidelity
 document.getElementById( "HighFidelity" ).onclick= function(){
 document.getElementById('HighFidelitysound').play();
@@ -180,10 +185,142 @@ document.getElementById( "CodedSleep" ).ontouchstart = function(){
 document.getElementById('CodedSleepsound').play();
 };
 
+
+
+//flexbox 2 event listeners
+
+//Prometheos
+document.getElementById( "Prometheos" ).onclick= function(){
+document.getElementById('Prometheossound').play();
+};
+document.getElementById( "Prometheos" ).ontouchstart = function(){
+document.getElementById('Prometheossound').play();
+};
+
+//SentientTumor
+document.getElementById( "SentientTumor" ).onclick= function(){
+document.getElementById('SentientTumorsound').play();
+};
+document.getElementById( "SentientTumor" ).ontouchstart = function(){
+document.getElementById('SentientTumorsound').play();
+};
+
 //TheArchitectureoftheSky
 document.getElementById( "TheArchitectureoftheSky" ).onclick= function(){
 document.getElementById('TheArchitectureoftheSkysound').play();
 };
 document.getElementById( "TheArchitectureoftheSky" ).ontouchstart = function(){
 document.getElementById('TheArchitectureoftheSkysound').play();
+};
+
+//Trypophobia
+document.getElementById( "Trypophobia" ).onclick= function(){
+document.getElementById('Trypophobiasound').play();
+};
+document.getElementById( "Trypophobia" ).ontouchstart = function(){
+document.getElementById('Trypophobiasound').play();
+};
+
+//Uncannyvalley
+document.getElementById( "Uncannyvalley" ).onclick= function(){
+document.getElementById('Uncannyvalleysound').play();
+};
+document.getElementById( "Uncannyvalley" ).ontouchstart = function(){
+document.getElementById('Uncannyvalleysound').play();
+};
+
+//Revolutionforthedead
+document.getElementById( "Revolutionforthedead" ).onclick= function(){
+document.getElementById('Revolutionforthedeadsound').play();
+};
+document.getElementById( "Revolutionforthedead" ).ontouchstart = function(){
+document.getElementById('Revolutionforthedeadsound').play();
+};
+
+//Cosmophobia
+document.getElementById( "Cosmophobia" ).onclick= function(){
+document.getElementById('Cosmophobiasound').play();
+};
+document.getElementById( "Cosmophobia" ).ontouchstart = function(){
+document.getElementById('Cosmophobiasound').play();
+};
+
+//FilthyMagic
+document.getElementById( "FilthyMagic" ).onclick= function(){
+document.getElementById('FilthyMagicsound').play();
+};
+document.getElementById( "FilthyMagic" ).ontouchstart = function(){
+document.getElementById('FilthyMagicsound').play();
+};
+
+//DigitalPathologies
+document.getElementById( "DigitalPathologies" ).onclick= function(){
+document.getElementById('DigitalPathologiessound').play();
+};
+document.getElementById( "DigitalPathologies" ).ontouchstart = function(){
+document.getElementById('DigitalPathologiessound').play();
+};
+
+//ExtremeMetaphors
+document.getElementById( "ExtremeMetaphors" ).onclick= function(){
+document.getElementById('ExtremeMetaphorssound').play();
+};
+document.getElementById( "ExtremeMetaphors" ).ontouchstart = function(){
+document.getElementById('ExtremeMetaphorssound').play();
+};
+
+//Memoriesofthefuture
+document.getElementById( "Memoriesofthefuture" ).onclick= function(){
+document.getElementById('Memoriesofthefuturesound').play();
+};
+document.getElementById( "Memoriesofthefuture" ).ontouchstart = function(){
+document.getElementById('Memoriesofthefuturesound').play();
+};
+
+//Isopoda
+document.getElementById( "Isopoda" ).onclick= function(){
+document.getElementById('Isopodasound').play();
+};
+document.getElementById( "Isopoda" ).ontouchstart = function(){
+document.getElementById('Isopodasound').play();
+};
+
+//TheNewEros
+document.getElementById( "TheNewEros" ).onclick= function(){
+document.getElementById('TheNewErossound').play();
+};
+document.getElementById( "TheNewEros" ).ontouchstart = function(){
+document.getElementById('TheNewErossound').play();
+};
+
+//TheAviatrix
+document.getElementById( "TheAviatrix" ).onclick= function(){
+document.getElementById('TheAviatrixsound').play();
+};
+document.getElementById( "TheAviatrix" ).ontouchstart = function(){
+document.getElementById('TheAviatrixsound').play();
+};
+
+//Thelasttransitofvenus
+document.getElementById( "Thelasttransitofvenus" ).onclick= function(){
+document.getElementById('Thelasttransitofvenussound').play();
+};
+document.getElementById( "Thelasttransitofvenus" ).ontouchstart = function(){
+document.getElementById('Thelasttransitofvenussound').play();
+};
+
+//SongsofInnocence
+document.getElementById( "SongsofInnocence" ).onclick= function(){
+document.getElementById('SongsofInnocencesound').play();
+};
+document.getElementById( "SongsofInnocence" ).ontouchstart = function(){
+document.getElementById('SongsofInnocencesound').play();
+};
+
+//TheThoughtCollective
+document.getElementById( "TheThoughtCollective" ).onclick= function(){
+document.getElementById('TheThoughtCollectivesound').play();
+};
+document.getElementById( "TheThoughtCollective" ).ontouchstart = function(){
+document.getElementById('TheThoughtCollectivesound').play();
 };
