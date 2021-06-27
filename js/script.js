@@ -21,12 +21,10 @@ window.attachEvent("onmousewheel", scrollHorizontally);
 })();
 
 document.getElementById( "HighFidelity" ).onclick= function(){
-fireEvent();
+document.getElementById('HighFidelitysound').play();
 };
 document.getElementById( "HighFidelity" ).ontouchstart = function(){
-fireEvent();
+document.getElementById('HighFidelitysound').play();
 };
 // This function will be called whenever mousedown event occurs
-function fireEvent( ) {
-document.getElementById('HighFidelitysound').play();
-}
+
