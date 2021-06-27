@@ -26,5 +26,20 @@ document.getElementById('HighFidelitysound').play();
 document.getElementById( "HighFidelity" ).ontouchstart = function(){
 document.getElementById('HighFidelitysound').play();
 };
-// This function will be called whenever mousedown event occurs
+
+//PupulaDuplex
+document.getElementById( "PupulaDuplex" ).onclick= function(){
+document.getElementById('PupulaDuplexsound').play();
+};
+document.getElementById( "PupulaDuplex" ).ontouchstart = function(){
+document.getElementById('PupulaDuplexsound').play();
+};
+
+//TheArchitectureoftheSky
+document.getElementById( "TheArchitectureoftheSky" ).onclick= function(){
+document.getElementById('TheArchitectureoftheSkysound').play();
+};
+document.getElementById( "TheArchitectureoftheSky" ).ontouchstart = function(){
+document.getElementById('TheArchitectureoftheSkysound').play();
+};
 
