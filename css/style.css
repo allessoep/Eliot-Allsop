@@ -140,7 +140,7 @@ a {
 }
 
 #Memoriesofthefuture {
-  height: 23vh;
+  height: 15vh;
 }
 
 #Isopoda {
@@ -184,7 +184,7 @@ a {
 }
 
 #TheThoughtCollective {
-  height: 20vh;
+  height: 13.5vh;
 }
 
 #SongsofInnocence {
@@ -198,4 +198,28 @@ a {
 
 #EventHorizon {
   height: 13.5vh;
+}
+
+#Arachne {
+  height: 13vh;
+}
+
+#DarkEuphoria {
+  height: 12.5vh;
+}
+
+#TheSchedule {
+  height: 13.5vh;
+}
+
+#CrisisCult {
+  height: 11vh;
+}
+
+#SlowCancellation {
+  height: 10vh;
+}
+
+#PatternRecognition {
+  height: 13vh;
 }

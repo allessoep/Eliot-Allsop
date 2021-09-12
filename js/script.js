@@ -185,6 +185,30 @@ document.getElementById( "CodedSleep" ).ontouchstart = function(){
 document.getElementById('CodedSleepsound').play();
 };
 
+//Arachne
+document.getElementById( "Arachne" ).onclick= function(){
+document.getElementById('Arachnesound').play();
+};
+document.getElementById( "Arachne" ).ontouchstart = function(){
+document.getElementById('Arachnesound').play();
+};
+
+//PatternRecognition
+document.getElementById( "PatternRecognition" ).onclick= function(){
+document.getElementById('PatternRecognitionsound').play();
+};
+document.getElementById( "PatternRecognition" ).ontouchstart = function(){
+document.getElementById('PatternRecognitionsound').play();
+};
+
+//SlowCancellation
+document.getElementById( "SlowCancellation" ).onclick= function(){
+document.getElementById('SlowCancellationsound').play();
+};
+document.getElementById( "SlowCancellation" ).ontouchstart = function(){
+document.getElementById('SlowCancellationsound').play();
+};
+
 
 
 //flexbox 2 event listeners
@@ -323,4 +347,28 @@ document.getElementById('TheThoughtCollectivesound').play();
 };
 document.getElementById( "TheThoughtCollective" ).ontouchstart = function(){
 document.getElementById('TheThoughtCollectivesound').play();
+};
+
+//TheSchedule
+document.getElementById( "TheSchedule" ).onclick= function(){
+document.getElementById('TheSchedulesound').play();
+};
+document.getElementById( "TheSchedule" ).ontouchstart = function(){
+document.getElementById('TheSchedulesound').play();
+};
+
+//CrisisCult
+document.getElementById( "CrisisCult" ).onclick= function(){
+document.getElementById('CrisisCultsound').play();
+};
+document.getElementById( "CrisisCult" ).ontouchstart = function(){
+document.getElementById('CrisisCultsound').play();
+};
+
+//DarkEuphoria
+document.getElementById( "DarkEuphoria" ).onclick= function(){
+document.getElementById('DarkEuphoriasound').play();
+};
+document.getElementById( "DarkEuphoria" ).ontouchstart = function(){
+document.getElementById('DarkEuphoriasound').play();
 };
