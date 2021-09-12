@@ -372,3 +372,11 @@ document.getElementById('DarkEuphoriasound').play();
 document.getElementById( "DarkEuphoria" ).ontouchstart = function(){
 document.getElementById('DarkEuphoriasound').play();
 };
+
+//ladyLake
+document.getElementById( "LadyLake" ).onclick= function(){
+document.getElementById('LadyLakesound').play();
+};
+document.getElementById( "LadyLake" ).ontouchstart = function(){
+document.getElementById('LadyLakesound').play();
+};
