@@ -32,6 +32,9 @@ body {
   background-color: white;
   }
 
+#test {
+  position: fixed;
+}
 
 
 img {
@@ -48,8 +51,7 @@ p {
 a {
   color: inherit;
   text-decoration: none;
-  position: fixed;
-}
+  }
 
 
 
