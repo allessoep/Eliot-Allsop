@@ -18,6 +18,13 @@ window.addEventListener("DOMMouseScroll", scrollHorizontally, false);
 // IE 6/7/8
 window.attachEvent("onmousewheel", scrollHorizontally);
 }
+ $(document).on('mousewheel', function(e) {
+  $(scrollHorizontally);
+});
+
+$(document).on('touchmove', function() { //touchmove works for iOS, I don't know if Android supports it
+  $(document).trigger('mousewheel');
+});
 })();
 
 
