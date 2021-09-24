@@ -29,12 +29,12 @@ window.attachEvent("onmousewheel", scrollHorizontally);
 document.getElementById( "HighFidelity" ).onclick= function(){
 document.getElementById('HighFidelitysound').play();
 let str = document.getElementById("test").innerHTML;
-document.getElementById("test").innerHTML =  "High Fidelity 17.5 x 16 cm";
+document.getElementById("test").innerHTML =  "High Fidelity <br> 17.5 x 16 cm";
 };
 document.getElementById( "HighFidelity" ).ontouchstart = function(){
 document.getElementById('HighFidelitysound').play();
 let str = document.getElementById("test").innerHTML;
-document.getElementById("test").innerHTML =  "high fidelity 17.5 x 16 cm";
+document.getElementById("test").innerHTML =  "High Fidelity <br> 17.5 x 16 cm";
 };
 
 //PupulaDuplex
@@ -49,12 +49,12 @@ document.getElementById('PupulaDuplexsound').play();
 document.getElementById( "Pod" ).onclick= function(){
 document.getElementById('Podsound').play();
 let str = document.getElementById("test").innerHTML;
-document.getElementById("test").innerHTML =  "Pod 15.5 x 20 cm";
+document.getElementById("test").innerHTML =  "Pod <br> 15.5 x 20 cm";
 };
 document.getElementById( "Pod" ).ontouchstart = function(){
 document.getElementById('Podsound').play();
 let str = document.getElementById("test").innerHTML;
-document.getElementById("test").innerHTML =  "pod 15.5 x 20 cm";
+document.getElementById("test").innerHTML =  "Pod <br> 15.5 x 20 cm";
 };
 
 //Hypnogogicstate
