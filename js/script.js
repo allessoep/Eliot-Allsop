@@ -28,113 +28,157 @@ window.attachEvent("onmousewheel", scrollHorizontally);
 //high fidelity
 document.getElementById( "HighFidelity" ).onclick= function(){
 document.getElementById('HighFidelitysound').play();
-let str = document.getElementById("test").innerHTML;
-document.getElementById("test").innerHTML =  "High Fidelity <br> 17.5 x 16 cm";
+let str = document.getElementById("description").innerHTML;
+document.getElementById("description").innerHTML =  "High Fidelity <br> 17.5 x 16 cm";
 };
 document.getElementById( "HighFidelity" ).ontouchstart = function(){
 document.getElementById('HighFidelitysound').play();
-let str = document.getElementById("test").innerHTML;
-document.getElementById("test").innerHTML =  "High Fidelity <br> 17.5 x 16 cm";
+let str = document.getElementById("description").innerHTML;
+document.getElementById("description").innerHTML =  "High Fidelity <br> 17.5 x 16 cm";
 };
 
 //PupulaDuplex
 document.getElementById( "PupulaDuplex" ).onclick= function(){
 document.getElementById('PupulaDuplexsound').play();
+let str = document.getElementById("description").innerHTML;
+document.getElementById("description").innerHTML =  "Pupula Duplex <br> 8.5 x 6.5 cm";
 };
 document.getElementById( "PupulaDuplex" ).ontouchstart = function(){
 document.getElementById('PupulaDuplexsound').play();
+let str = document.getElementById("description").innerHTML;
+document.getElementById("description").innerHTML =  "Pupula Duplex <br> 8.5 x 6.5 cm";
 };
 
 //Pod
 document.getElementById( "Pod" ).onclick= function(){
 document.getElementById('Podsound').play();
-let str = document.getElementById("test").innerHTML;
-document.getElementById("test").innerHTML =  "Pod <br> 15.5 x 20 cm";
+let str = document.getElementById("description").innerHTML;
+document.getElementById("description").innerHTML =  "Pod <br> 15.5 x 20 cm";
 };
 document.getElementById( "Pod" ).ontouchstart = function(){
 document.getElementById('Podsound').play();
-let str = document.getElementById("test").innerHTML;
-document.getElementById("test").innerHTML =  "Pod <br> 15.5 x 20 cm";
+let str = document.getElementById("description").innerHTML;
+document.getElementById("description").innerHTML =  "Pod <br> 15.5 x 20 cm";
 };
 
 //Hypnogogicstate
 document.getElementById( "Hypnogogicstate" ).onclick= function(){
 document.getElementById('Hypnogogicstatesound').play();
+let str = document.getElementById("description").innerHTML;
+document.getElementById("description").innerHTML =  "Hypnogogic State <br> 17.5 x 13 cm";
 };
 document.getElementById( "Hypnogogicstate" ).ontouchstart = function(){
 document.getElementById('Hypnogogicstatesound').play();
+let str = document.getElementById("description").innerHTML;
+document.getElementById("description").innerHTML =  "Hypnogogic State <br> 17.5 x 13 cm";
 };
 
 //MythsoftheNearFuture
 document.getElementById( "MythsoftheNearFuture" ).onclick= function(){
 document.getElementById('MythsoftheNearFuturesound').play();
+let str = document.getElementById("description").innerHTML;
+document.getElementById("description").innerHTML =  "Myths of the Near Future <br> 16 x 21 cm";
 };
 document.getElementById( "MythsoftheNearFuture" ).ontouchstart = function(){
 document.getElementById('MythsoftheNearFuture').play();
+let str = document.getElementById("description").innerHTML;
+document.getElementById("description").innerHTML =  "Myths of the Near Future <br> 16 x 21 cm";
 };
 
 //Thepoeticsofspace
 document.getElementById( "Thepoeticsofspace" ).onclick= function(){
 document.getElementById('Thepoeticsofspacesound').play();
+let str = document.getElementById("description").innerHTML;
+document.getElementById("description").innerHTML =  "The Poetics of Space <br> 10.5 x 15 cm";
 };
 document.getElementById( "Thepoeticsofspace" ).ontouchstart = function(){
 document.getElementById('Thepoeticsofspacesound').play();
+let str = document.getElementById("description").innerHTML;
+document.getElementById("description").innerHTML =  "The Poetics of Space <br> 10.5 x 15 cm";
 };
 
 //Eclipse
 document.getElementById( "Eclipse" ).onclick= function(){
 document.getElementById('Eclipsesound').play();
+let str = document.getElementById("description").innerHTML;
+document.getElementById("description").innerHTML =  "Eclipse <br> 8.5 x 8.5 cm";
 };
 document.getElementById( "Eclipse" ).ontouchstart = function(){
 document.getElementById('Eclipsesound').play();
+let str = document.getElementById("description").innerHTML;
+document.getElementById("description").innerHTML =  "Eclipse <br> 8.5 x 8.5 cm";
 };
 
 //Necropolis
 document.getElementById( "Necropolis" ).onclick= function(){
 document.getElementById('Necropolissound').play();
+let str = document.getElementById("description").innerHTML;
+document.getElementById("description").innerHTML =  "Necropolis <br> 14 x 13 cm";
 };
 document.getElementById( "Necropolis" ).ontouchstart = function(){
 document.getElementById('Necropolissound').play();
+let str = document.getElementById("description").innerHTML;
+document.getElementById("description").innerHTML =  "Necropolis <br> 14 x 13 cm";
 };
 
 //adiscreetprosthesis
 document.getElementById( "adiscreetprosthesis" ).onclick= function(){
 document.getElementById('adiscreetprosthesissound').play();
+let str = document.getElementById("description").innerHTML;
+document.getElementById("description").innerHTML =  "A Discreet Prosthesis <br> 20 x 14 cm";
 };
 document.getElementById( "adiscreetprosthesis" ).ontouchstart = function(){
 document.getElementById('adiscreetprosthesissound').play();
+let str = document.getElementById("description").innerHTML;
+document.getElementById("description").innerHTML =  "A Discreet Prosthesis <br> 20 x 14 cm";
 };
 
 //PodII
 document.getElementById( "PodII" ).onclick= function(){
 document.getElementById('PodIIsound').play();
+let str = document.getElementById("description").innerHTML;
+document.getElementById("description").innerHTML =  "Pod II <br> 11.5 x 10.5 cm";
 };
 document.getElementById( "PodII" ).ontouchstart = function(){
 document.getElementById('PodIIsound').play();
+let str = document.getElementById("description").innerHTML;
+document.getElementById("description").innerHTML =  "Pod II <br> 11.5 x 10.5 cm";
 };
 
 //Digitalangel
 document.getElementById( "Digitalangel" ).onclick= function(){
 document.getElementById('Digitalangelsound').play();
+let str = document.getElementById("description").innerHTML;
+document.getElementById("description").innerHTML =  "Digital Angel <br> 7.5 x 12 cm";
 };
 document.getElementById( "Digitalangel" ).ontouchstart = function(){
 document.getElementById('Digitalangelsound').play();
+let str = document.getElementById("description").innerHTML;
+document.getElementById("description").innerHTML =  "Digital Angel <br> 7.5 x 12 cm";
 };
 
 //CompulsoryGames
 document.getElementById( "CompulsoryGames" ).onclick= function(){
 document.getElementById('CompulsoryGamessound').play();
+let str = document.getElementById("description").innerHTML;
+document.getElementById("description").innerHTML =  "Compulsory Games <br> 15 x 13 cm";
 };
 document.getElementById( "CompulsoryGames" ).ontouchstart = function(){
 document.getElementById('CompulsoryGamessound').play();
+let str = document.getElementById("description").innerHTML;
+document.getElementById("description").innerHTML =  "Compulsory Games <br> 15 x 13 cm";
 };
 
 //ElevatedSection
 document.getElementById( "ElevatedSection" ).onclick= function(){
 document.getElementById('ElevatedSectionsound').play();
+let str = document.getElementById("description").innerHTML;
+document.getElementById("description").innerHTML =  "Elevated Section <br> 12 x 11.5 cm";
 };
 document.getElementById( "ElevatedSection" ).ontouchstart = function(){
 document.getElementById('ElevatedSectionsound').play();
+let str = document.getElementById("description").innerHTML;
+document.getElementById("description").innerHTML =  "Elevated Section <br> 12 x 11.5 cm";
 };
 
 //Nightschool
@@ -196,9 +240,13 @@ document.getElementById('CodedSleepsound').play();
 //Arachne
 document.getElementById( "Arachne" ).onclick= function(){
 document.getElementById('Arachnesound').play();
+let str = document.getElementById("description").innerHTML;
+document.getElementById("description").innerHTML =  "Arachne <br> 11.5 x 13 cm";
 };
 document.getElementById( "Arachne" ).ontouchstart = function(){
 document.getElementById('Arachnesound').play();
+let str = document.getElementById("description").innerHTML;
+document.getElementById("description").innerHTML =  "Arachne <br> 11.5 x 13 cm";
 };
 
 //PatternRecognition
@@ -360,9 +408,13 @@ document.getElementById('TheThoughtCollectivesound').play();
 //TheSchedule
 document.getElementById( "TheSchedule" ).onclick= function(){
 document.getElementById('TheSchedulesound').play();
+let str = document.getElementById("description").innerHTML;
+document.getElementById("description").innerHTML =  "The Schedule of Addiction <br> 23 x 13.5 cm";
 };
 document.getElementById( "TheSchedule" ).ontouchstart = function(){
 document.getElementById('TheSchedulesound').play();
+let str = document.getElementById("description").innerHTML;
+document.getElementById("description").innerHTML =  "The Schedule of Addiction <br> 23 x 13.5 cm";
 };
 
 //CrisisCult
@@ -376,9 +428,13 @@ document.getElementById('CrisisCultsound').play();
 //DarkEuphoria
 document.getElementById( "DarkEuphoria" ).onclick= function(){
 document.getElementById('DarkEuphoriasound').play();
+let str = document.getElementById("description").innerHTML;
+document.getElementById("description").innerHTML =  "Dark Euphoria <br> 19.5 x 12.5 cm";
 };
 document.getElementById( "DarkEuphoria" ).ontouchstart = function(){
 document.getElementById('DarkEuphoriasound').play();
+let str = document.getElementById("description").innerHTML;
+document.getElementById("description").innerHTML =  "Dark Euphoria <br> 19.5 x 12.5 cm";
 };
 
 //ladyLake
