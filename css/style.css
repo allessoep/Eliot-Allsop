@@ -2,11 +2,11 @@
   body {
     background-color: white;
     color: black;
-    margin-left: 30vw;
+    margin-left: 40vw;
     overflow-y: hidden;
     -webkit-backface-visibility: hidden;
     transform: scale(1.8);
-    margin-top: 30vh;
+    margin-top: 20vh;
   }
 }
 
