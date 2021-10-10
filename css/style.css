@@ -1,17 +1,31 @@
+@media only screen and (max-width : 480px) {
+  body {
+    background-color: white;
+    color: black;
+    margin-left: 30vw;
+    overflow-y: hidden;
+    -webkit-backface-visibility: hidden;
+    transform: scale(1.8);
+    margin-top: 30vh;
+  }
+}
+
+@media only screen and (min-width : 481px) {
+  body {
+    background-color: white;
+    color: black;
+    margin-left: 50vw;
+    overflow-y: hidden;
+    -webkit-backface-visibility: hidden;
+  }
+}
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
-body {
-  background-color: white;
-  color: black;
-  margin-left: 50vw;
-  overflow-y: hidden;
-  -webkit-backface-visibility: hidden;
-  }
-
 
 #header {
   background-color: white;
