@@ -12,6 +12,10 @@
   #footer {
     visibility: hidden;
   }
+  
+    #description {
+    visibility: hidden;
+  }
 }
 
 @media only screen and (min-width : 481px) {
